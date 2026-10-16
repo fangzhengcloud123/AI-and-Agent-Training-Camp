@@ -1,0 +1,45 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/blind/blind",
+			"style": {
+				"navigationBarTitleText": "盲人辅助",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#000000"
+			}
+		},
+		{
+			"path": "pages/deaf/deaf",
+			"style": {
+				"navigationBarTitleText": "聋哑人辅助",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"backgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#000000",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/blind/blind",
+				"text": "盲人辅助"
+			},
+			{
+				"pagePath": "pages/deaf/deaf",
+				"text": "聋哑人辅助"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
