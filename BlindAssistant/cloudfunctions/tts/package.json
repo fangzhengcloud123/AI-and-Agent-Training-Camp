@@ -1,0 +1,10 @@
+{
+	"name": "tts",
+	"version": "1.0.0",
+	"description": "讯飞语音合成：文字转 mp3 存云存储",
+	"main": "index.js",
+	"dependencies": {
+		"wx-server-sdk": "~2.6.3",
+		"ws": "^8.18.0"
+	}
+}

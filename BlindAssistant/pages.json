@@ -1,12 +1,42 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/blind/blind",
+			"path": "pages/message/message",
 			"style": {
-				"navigationBarTitleText": "盲人辅助",
-				"navigationBarBackgroundColor": "#000000",
-				"navigationBarTextStyle": "white",
-				"backgroundColor": "#000000"
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "手语库",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/kit/kit",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "消息",
+				"navigationBarBackgroundColor": "#11C2AD",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/safety/safety",
+			"style": {
+				"navigationBarTitleText": "安全应急",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
 			}
 		},
 		{
@@ -21,23 +51,31 @@
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "聋哑人辅助",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
 		"color": "#666666",
-		"selectedColor": "#000000",
+		"selectedColor": "#11C2AD",
 		"backgroundColor": "#FFFFFF",
 		"borderStyle": "black",
 		"list": [
 			{
-				"pagePath": "pages/blind/blind",
-				"text": "盲人辅助"
+				"pagePath": "pages/message/message",
+				"text": "沟通"
 			},
 			{
-				"pagePath": "pages/deaf/deaf",
-				"text": "聋哑人辅助"
+				"pagePath": "pages/sign/sign",
+				"text": "手语库"
+			},
+			{
+				"pagePath": "pages/kit/kit",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的"
 			}
 		]
 	},
